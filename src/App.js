@@ -1,23 +1,12 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import NewsSection from './components/NewsSection';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 className="text-4xl font-bold text-center mt-6 text-pink-700">HEADLINES OF AMRITSAR</h1>
+      <NewsSection />
     </div>
   );
 }
